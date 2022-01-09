@@ -1,1 +1,3 @@
-# Codeforces-Conqueror-
+# Codeforces Conqueror
+
+Its just a repository, made for practice and to keep track of my solutions. It contains solution to the [Codeforces problems](https://codeforces.com/).
