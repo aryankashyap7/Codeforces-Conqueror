@@ -15,5 +15,5 @@ Its just a repository, made for practice and to keep track of my solutions. It c
 ## Commit Format
 
 ```python
-Time: 46 ms, Memory: 28 KB
+Time: 46 ms, Memory: 28 KB, Rating: 1300
 ```
