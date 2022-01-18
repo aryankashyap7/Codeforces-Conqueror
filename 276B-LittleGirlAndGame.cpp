@@ -41,7 +41,7 @@ int main()
 
     string s;
     cin >> s;
-    // s.size() == ODD then [First else Second]
+    // s.size() == ODD then [ First else Second ]
     if (s.size() % 2 != 0 || is_valid(s) == true || ((same(s) == true && is_valid(s) == false)))
         cout << "First"
              << "\n";
