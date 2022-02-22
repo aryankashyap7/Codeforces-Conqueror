@@ -1,8 +1,11 @@
 // A. Insomnia cure
 // https://codeforces.com/problemset/problem/148/A
-// Time 62 ms
-// Memory 4700 KB
+// Time 30 ms
+// Memory 0 KB
 // Rating 800
+
+#include <bits/stdc++.h>
+using namespace std;
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -14,25 +17,13 @@ int main()
 
     int k, l, m, n, d;
     cin >> k >> l >> m >> n >> d;
-    set<int> s;
-    for (int i = k; i <= d; i = i + k)
+    int count = 0;
+    for (int i = 1; i <= d; i++)
     {
-        s.insert(i);
+        if (i % k == 0 || i % l == 0 || i % m == 0 || i % n == 0)
+            count++;
     }
-    for (int i = l; i <= d; i = i + l)
-    {
-        s.insert(i);
-    }
-    for (int i = m; i <= d; i = i + m)
-    {
-        s.insert(i);
-    }
-    for (int i = n; i <= d; i = i + n)
-    {
-        s.insert(i);
-    }
-
-    cout << s.size() << endl;
+    cout << count;
 
     return 0;
 }
