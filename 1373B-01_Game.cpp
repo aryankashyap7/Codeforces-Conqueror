@@ -2,7 +2,7 @@
 // https://codeforces.com/problemset/problem/1373/B
 // Time 15 ms
 // Memory 0 KB
-// Rating 800
+// Rating 900
 
 #include <bits/stdc++.h>
 using namespace std;
